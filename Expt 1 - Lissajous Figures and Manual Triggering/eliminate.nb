@@ -1,0 +1,607 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     20771,        599]
+NotebookOptionsPosition[     17070,        532]
+NotebookOutlinePosition[     17413,        547]
+CellTagsIndexPosition[     17370,        544]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Eliminate", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"x", "\[Equal]", 
+      RowBox[{"10", " ", 
+       RowBox[{"Sin", "[", 
+        RowBox[{"500", "t"}], "]"}]}]}], ",", 
+     RowBox[{"y", "\[Equal]", 
+      RowBox[{"10", " ", 
+       RowBox[{"Sin", "[", 
+        RowBox[{"500", "t"}], "]"}]}]}]}], "}"}], ",", " ", "t"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.9324379128187237`*^9, 3.932437914568695*^9}, {
+  3.9324379707355447`*^9, 3.932437987635079*^9}, {3.93243820424256*^9, 
+  3.9324382053933115`*^9}},
+ CellLabel->"In[8]:=",ExpressionUUID->"635924a4-ccba-46a0-8ce9-8659b00a6bf5"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Eliminate","ifun",
+   "\"Inverse functions are being used by \
+\\!\\(\\*RowBox[{\\\"Eliminate\\\"}]\\), so some solutions may not be found; \
+use Reduce for complete solution information.\"",2,8,7,16975803386773629721,
+   "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.932437915439563*^9, 3.932437988590966*^9, 
+  3.9324382059261227`*^9},
+ CellLabel->
+  "During evaluation of \
+In[8]:=",ExpressionUUID->"af185405-b596-4813-a977-2e7d117fbb82"],
+
+Cell[BoxData[
+ RowBox[{"y", "\[Equal]", "x"}]], "Output",
+ CellChangeTimes->{3.932437915439563*^9, 3.9324379886160088`*^9, 
+  3.932438205959516*^9},
+ CellLabel->"Out[8]=",ExpressionUUID->"b1bcb859-e6dd-45fa-98ed-4be72ed58d68"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Eliminate", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"x", "\[Equal]", 
+      RowBox[{"10", " ", 
+       RowBox[{"Sin", "[", 
+        RowBox[{"500", "t"}], "]"}]}]}], ",", 
+     RowBox[{"y", "\[Equal]", 
+      RowBox[{"10", " ", 
+       RowBox[{"Sin", "[", 
+        RowBox[{
+         RowBox[{"500", "t"}], " ", "+", " ", 
+         RowBox[{"Pi", "/", "4"}]}], "]"}]}]}]}], "}"}], ",", " ", "t"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.9324380031484423`*^9, 3.9324380085574436`*^9}, {
+  3.932438177528501*^9, 3.9324381786365185`*^9}},
+ CellLabel->"In[6]:=",ExpressionUUID->"eb9b704f-0c5f-4e6b-97a9-471f0095eb45"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Eliminate","ifun",
+   "\"Inverse functions are being used by \
+\\!\\(\\*RowBox[{\\\"Eliminate\\\"}]\\), so some solutions may not be found; \
+use Reduce for complete solution information.\"",2,6,5,16975803386773629721,
+   "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.932438010587041*^9, 3.9324381860258236`*^9},
+ CellLabel->
+  "During evaluation of \
+In[6]:=",ExpressionUUID->"9c319579-b942-4418-a4bf-54fdbf32229a"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"4", " ", 
+   RowBox[{"ArcSin", "[", 
+    FractionBox["y", "10"], "]"}]}], "\[Equal]", 
+  RowBox[{"\[Pi]", "+", 
+   RowBox[{"4", " ", 
+    RowBox[{"ArcSin", "[", 
+     FractionBox["x", "10"], "]"}]}]}]}]], "Output",
+ CellChangeTimes->{3.9324380105971317`*^9, 3.9324381860573044`*^9},
+ CellLabel->"Out[6]=",ExpressionUUID->"948e464a-e819-4b6d-8652-9d56da39372a"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Eliminate", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"x", "\[Equal]", 
+      RowBox[{"10", " ", 
+       RowBox[{"Sin", "[", 
+        RowBox[{"500", "t"}], "]"}]}]}], ",", 
+     RowBox[{"y", "\[Equal]", 
+      RowBox[{"10", " ", 
+       RowBox[{"Sin", "[", 
+        RowBox[{
+         RowBox[{"500", "t"}], " ", "+", " ", 
+         RowBox[{"Pi", "/", "2"}]}], "]"}]}]}]}], "}"}], ",", " ", "t"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.93243811767397*^9, 3.932438194164022*^9}},
+ CellLabel->"In[7]:=",ExpressionUUID->"a88bf052-6bce-4f32-a76a-7a959eb02b48"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Eliminate","ifun",
+   "\"Inverse functions are being used by \
+\\!\\(\\*RowBox[{\\\"Eliminate\\\"}]\\), so some solutions may not be found; \
+use Reduce for complete solution information.\"",2,7,6,16975803386773629721,
+   "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{{3.932438169100785*^9, 3.932438195428848*^9}},
+ CellLabel->
+  "During evaluation of \
+In[7]:=",ExpressionUUID->"59056221-fad3-4b7d-bc07-2ddee681822a"],
+
+Cell[BoxData[
+ RowBox[{
+  SuperscriptBox["y", "2"], "\[Equal]", 
+  RowBox[{"100", "-", 
+   SuperscriptBox["x", "2"]}]}]], "Output",
+ CellChangeTimes->{
+  3.9324381314068065`*^9, {3.9324381691167707`*^9, 3.932438195444741*^9}},
+ CellLabel->"Out[7]=",ExpressionUUID->"755052d4-7442-423e-93c0-47858ac75cce"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", 
+   RowBox[{"Eliminate", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"x", "\[Equal]", 
+        RowBox[{"10", " ", 
+         RowBox[{"Sin", "[", 
+          RowBox[{"500", "t"}], "]"}]}]}], ",", 
+       RowBox[{"y", "\[Equal]", 
+        RowBox[{"10", " ", 
+         RowBox[{"Sin", "[", 
+          RowBox[{"1000", "t"}], "]"}]}]}]}], "}"}], ",", " ", "t"}], "]"}], 
+   "*)"}], "\[IndentingNewLine]", 
+  RowBox[{"Reduce", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"x", "\[Equal]", 
+       RowBox[{"10", " ", 
+        RowBox[{"Sin", "[", 
+         RowBox[{"2000", "t"}], "]"}]}]}], ",", 
+      RowBox[{"y", "\[Equal]", 
+       RowBox[{"10", " ", 
+        RowBox[{"Sin", "[", 
+         RowBox[{"1500", "t"}], " ", "]"}]}]}]}], "}"}], ",", " ", "t"}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.9324382206913433`*^9, 3.9324382356535687`*^9}, {
+  3.93243850444269*^9, 3.932438556807466*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"d5d73463-bb56-4123-8e40-d152730aadd0"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Eliminate","ifun",
+   "\"Inverse functions are being used by \
+\\!\\(\\*RowBox[{\\\"Eliminate\\\"}]\\), so some solutions may not be found; \
+use Reduce for complete solution information.\"",2,9,8,16975803386773629721,
+   "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.9324382404673777`*^9},
+ CellLabel->
+  "During evaluation of \
+In[9]:=",ExpressionUUID->"88140e53-d490-4a8d-94ad-9bda570880c0"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"ArcSin", "[", 
+   FractionBox["y", "10"], "]"}], "\[Equal]", 
+  RowBox[{"2", " ", 
+   RowBox[{"ArcSin", "[", 
+    FractionBox["x", "10"], "]"}]}]}]], "Output",
+ CellChangeTimes->{3.9324382404686584`*^9},
+ CellLabel->"Out[9]=",ExpressionUUID->"8916af99-76dd-48e2-a886-bbbef00e7ef3"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Eliminate", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"x", "\[Equal]", 
+      RowBox[{"10", " ", 
+       RowBox[{"Sin", "[", 
+        RowBox[{"2000", "t"}], "]"}]}]}], ",", 
+     RowBox[{"y", "\[Equal]", 
+      RowBox[{"10", " ", 
+       RowBox[{"Sin", "[", 
+        RowBox[{"1500", "t"}], " ", "]"}]}]}]}], "}"}], ",", " ", "t"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.93243825978784*^9, 3.9324382718293967`*^9}},
+ CellLabel->"In[10]:=",ExpressionUUID->"2d88a570-2e78-4f58-9f26-96da90ee075d"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Eliminate","ifun",
+   "\"Inverse functions are being used by \
+\\!\\(\\*RowBox[{\\\"Eliminate\\\"}]\\), so some solutions may not be found; \
+use Reduce for complete solution information.\"",2,10,9,16975803386773629721,
+   "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.9324382765452337`*^9},
+ CellLabel->
+  "During evaluation of \
+In[10]:=",ExpressionUUID->"6acddd57-72b2-4315-8d7b-8ae76b85688a"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"4", " ", 
+   RowBox[{"ArcSin", "[", 
+    FractionBox["y", "10"], "]"}]}], "\[Equal]", 
+  RowBox[{"3", " ", 
+   RowBox[{"ArcSin", "[", 
+    FractionBox["x", "10"], "]"}]}]}]], "Output",
+ CellChangeTimes->{3.9324382765452337`*^9},
+ CellLabel->"Out[10]=",ExpressionUUID->"59176295-a15f-47ac-83c8-526a08e9a4d3"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"TrigReduce", "[", 
+  RowBox[{"Reduce", "[", 
+   RowBox[{"TrigExpand", "[", 
+    RowBox[{"Eliminate", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"x", "\[Equal]", 
+         RowBox[{"10", " ", 
+          RowBox[{"Sin", "[", 
+           RowBox[{"2000", "t"}], "]"}]}]}], ",", 
+        RowBox[{"y", "\[Equal]", 
+         RowBox[{"10", " ", 
+          RowBox[{"Sin", "[", 
+           RowBox[{
+            RowBox[{"1500", "t"}], "  ", "+", " ", 
+            RowBox[{"Pi", "/", "8"}]}], "]"}]}]}]}], "}"}], ",", " ", "t"}], 
+     "]"}], "]"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.9324382989223595`*^9, 3.932438301061207*^9}, {
+  3.9324588012931833`*^9, 3.932458860529019*^9}},
+ CellLabel->"In[14]:=",ExpressionUUID->"02569e2f-d8e3-430f-be50-504a86d17bad"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Eliminate","ifun",
+   "\"Inverse functions are being used by \
+\\!\\(\\*RowBox[{\\\"Eliminate\\\"}]\\), so some solutions may not be found; \
+use Reduce for complete solution information.\"",2,14,12,16975809069065208615,
+   "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{
+  3.93243830171266*^9, {3.9324587986318607`*^9, 3.9324588610049744`*^9}},
+ CellLabel->
+  "During evaluation of \
+In[14]:=",ExpressionUUID->"9de89e8c-7077-4788-b1da-5cd1f7b5d726"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"ArcSin", "[", 
+   FractionBox["x", "10"], "]"}], "\[Equal]", 
+  RowBox[{
+   RowBox[{"-", 
+    FractionBox["\[Pi]", "6"]}], "+", 
+   RowBox[{
+    FractionBox["4", "3"], " ", 
+    RowBox[{"ArcSin", "[", 
+     FractionBox["y", "10"], "]"}]}]}]}]], "Output",
+ CellChangeTimes->{
+  3.93243830171266*^9, {3.9324587987240953`*^9, 3.932458861051655*^9}},
+ CellLabel->"Out[14]=",ExpressionUUID->"1cf4039a-2ada-4e86-a658-9026cd002f32"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Eliminate", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"x", "\[Equal]", 
+      RowBox[{"10", " ", 
+       RowBox[{"Sin", "[", 
+        RowBox[{"2000", "t"}], "]"}]}]}], ",", 
+     RowBox[{"y", "\[Equal]", 
+      RowBox[{"10", " ", 
+       RowBox[{"Sin", "[", 
+        RowBox[{"2500", "t"}], " ", "]"}]}]}]}], "}"}], ",", " ", "t"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.932438320329501*^9, 3.932438320506422*^9}},
+ CellLabel->"In[12]:=",ExpressionUUID->"0a021dbe-895d-48bb-8f76-1bdd6c07dd02"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Eliminate","ifun",
+   "\"Inverse functions are being used by \
+\\!\\(\\*RowBox[{\\\"Eliminate\\\"}]\\), so some solutions may not be found; \
+use Reduce for complete solution information.\"",2,12,11,16975803386773629721,
+   "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.9324383249496403`*^9},
+ CellLabel->
+  "During evaluation of \
+In[12]:=",ExpressionUUID->"63372eac-2c1d-4d21-9dca-fc6f4e983532"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"4", " ", 
+   RowBox[{"ArcSin", "[", 
+    FractionBox["y", "10"], "]"}]}], "\[Equal]", 
+  RowBox[{"5", " ", 
+   RowBox[{"ArcSin", "[", 
+    FractionBox["x", "10"], "]"}]}]}]], "Output",
+ CellChangeTimes->{3.9324383249496403`*^9},
+ CellLabel->"Out[12]=",ExpressionUUID->"145c0255-af25-41f1-8c0d-26625444c29f"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Eliminate", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"x", "\[Equal]", 
+      RowBox[{"10", " ", 
+       RowBox[{"Sin", "[", 
+        RowBox[{"2000", "t"}], "]"}]}]}], ",", 
+     RowBox[{"y", "\[Equal]", 
+      RowBox[{"10", " ", 
+       RowBox[{"Sin", "[", 
+        RowBox[{
+         RowBox[{"2500", "t"}], "  ", "+", " ", 
+         RowBox[{"Pi", "/", "8"}]}], "]"}]}]}]}], "}"}], ",", " ", "t"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.932438337786043*^9, 3.9324383430282917`*^9}},
+ CellLabel->"In[13]:=",ExpressionUUID->"b0698814-ef01-4d06-b9ee-6813e1579ccf"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Eliminate","ifun",
+   "\"Inverse functions are being used by \
+\\!\\(\\*RowBox[{\\\"Eliminate\\\"}]\\), so some solutions may not be found; \
+use Reduce for complete solution information.\"",2,13,12,16975803386773629721,
+   "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.93243834371301*^9},
+ CellLabel->
+  "During evaluation of \
+In[13]:=",ExpressionUUID->"ff119384-240c-4270-ae56-13297a966e8b"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"8", " ", 
+   RowBox[{"ArcSin", "[", 
+    FractionBox["y", "10"], "]"}]}], "\[Equal]", 
+  RowBox[{"\[Pi]", "+", 
+   RowBox[{"10", " ", 
+    RowBox[{"ArcSin", "[", 
+     FractionBox["x", "10"], "]"}]}]}]}]], "Output",
+ CellChangeTimes->{3.93243834371301*^9},
+ CellLabel->"Out[13]=",ExpressionUUID->"4a89aa2d-20ca-4066-a397-46bfdd15deea"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Eliminate", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"x", "\[Equal]", 
+      RowBox[{"10", " ", 
+       RowBox[{"Sin", "[", 
+        RowBox[{"500", "t"}], "]"}]}]}], ",", 
+     RowBox[{"y", "\[Equal]", 
+      RowBox[{"20", " ", 
+       RowBox[{"Sin", "[", 
+        RowBox[{"500", "t"}], " ", "]"}]}]}]}], "}"}], ",", " ", "t"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.932438364151189*^9, 3.9324383701063814`*^9}},
+ CellLabel->"In[14]:=",ExpressionUUID->"ff9a04b7-8444-4009-922b-47ca4861691d"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Eliminate","ifun",
+   "\"Inverse functions are being used by \
+\\!\\(\\*RowBox[{\\\"Eliminate\\\"}]\\), so some solutions may not be found; \
+use Reduce for complete solution information.\"",2,14,13,16975803386773629721,
+   "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.9324383709458065`*^9},
+ CellLabel->
+  "During evaluation of \
+In[14]:=",ExpressionUUID->"56638172-6314-48df-aee9-c42e8bc9aa85"],
+
+Cell[BoxData[
+ RowBox[{"y", "\[Equal]", 
+  RowBox[{"2", " ", "x"}]}]], "Output",
+ CellChangeTimes->{3.9324383709491215`*^9},
+ CellLabel->"Out[14]=",ExpressionUUID->"699f31d5-cf88-488d-8ce5-04ad45281ff0"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Eliminate", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"x", "\[Equal]", 
+      RowBox[{"10", " ", 
+       RowBox[{"Sin", "[", 
+        RowBox[{"500", "t"}], "]"}]}]}], ",", 
+     RowBox[{"y", "\[Equal]", 
+      RowBox[{"20", " ", 
+       RowBox[{"Sin", "[", 
+        RowBox[{
+         RowBox[{"500", "t"}], "  ", "+", " ", 
+         RowBox[{"Pi", "/", "2"}]}], "]"}]}]}]}], "}"}], ",", " ", "t"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.9324383822618484`*^9, 3.932438402680744*^9}},
+ CellLabel->"In[16]:=",ExpressionUUID->"8671f8c5-9a5e-41cb-99f5-96663021419b"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Eliminate","ifun",
+   "\"Inverse functions are being used by \
+\\!\\(\\*RowBox[{\\\"Eliminate\\\"}]\\), so some solutions may not be found; \
+use Reduce for complete solution information.\"",2,16,15,16975803386773629721,
+   "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{{3.9324383973437824`*^9, 3.932438403078823*^9}},
+ CellLabel->
+  "During evaluation of \
+In[16]:=",ExpressionUUID->"393f38a4-1f00-4941-a200-15a939cd59e4"],
+
+Cell[BoxData[
+ RowBox[{
+  SuperscriptBox["y", "2"], "\[Equal]", 
+  RowBox[{"400", "-", 
+   RowBox[{"4", " ", 
+    SuperscriptBox["x", "2"]}]}]}]], "Output",
+ CellChangeTimes->{{3.9324383973437824`*^9, 3.932438403102015*^9}},
+ CellLabel->"Out[16]=",ExpressionUUID->"6e980cbe-2e0a-4dc9-99d1-23927dbe29e3"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"FullSimplify", "[", 
+  RowBox[{"TrigReduce", "[", 
+   RowBox[{"Eliminate", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"x", "\[Equal]", 
+        RowBox[{"a", " ", 
+         RowBox[{"Sin", "[", "wt", "]"}]}]}], ",", 
+       RowBox[{"y", "\[Equal]", 
+        RowBox[{"b", " ", 
+         RowBox[{"Sin", "[", 
+          RowBox[{"3", "wt"}], " ", "]"}]}]}]}], "}"}], ",", " ", "wt"}], 
+    "]"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.9324387448551598`*^9, 3.932438784010582*^9}, {
+  3.9324389020682445`*^9, 3.9324389573502717`*^9}},
+ CellLabel->"In[8]:=",ExpressionUUID->"119aff4a-3679-42db-bf47-f49982f1101e"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Eliminate","ifun",
+   "\"Inverse functions are being used by \
+\\!\\(\\*RowBox[{\\\"Eliminate\\\"}]\\), so some solutions may not be found; \
+use Reduce for complete solution information.\"",2,8,6,16975809069065208615,
+   "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.932438957838103*^9},
+ CellLabel->
+  "During evaluation of \
+In[8]:=",ExpressionUUID->"34abacb4-b3ee-4469-861b-8c1675a9c3ac"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"3", " ", 
+   RowBox[{"ArcSin", "[", 
+    FractionBox["x", "a"], "]"}]}], "\[Equal]", 
+  RowBox[{"ArcSin", "[", 
+   FractionBox["y", "b"], "]"}]}]], "Output",
+ CellChangeTimes->{{3.9324387635047426`*^9, 3.932438784548498*^9}, {
+  3.9324389077275867`*^9, 3.9324389582774267`*^9}},
+ CellLabel->"Out[8]=",ExpressionUUID->"995a865d-6652-4301-9dd2-eb0d84d66a4c"]
+}, Open  ]]
+},
+WindowSize->{1280, 629},
+WindowMargins->{{-8, Automatic}, {Automatic, -8}},
+FrontEndVersion->"11.3 for Microsoft Windows (64-bit) (March 6, 2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 633, 17, 28, "Input",ExpressionUUID->"635924a4-ccba-46a0-8ce9-8659b00a6bf5"],
+Cell[1216, 41, 499, 12, 21, "Message",ExpressionUUID->"af185405-b596-4813-a977-2e7d117fbb82"],
+Cell[1718, 55, 226, 4, 32, "Output",ExpressionUUID->"b1bcb859-e6dd-45fa-98ed-4be72ed58d68"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1981, 64, 656, 18, 28, "Input",ExpressionUUID->"eb9b704f-0c5f-4e6b-97a9-471f0095eb45"],
+Cell[2640, 84, 474, 11, 21, "Message",ExpressionUUID->"9c319579-b942-4418-a4bf-54fdbf32229a"],
+Cell[3117, 97, 395, 10, 53, "Output",ExpressionUUID->"948e464a-e819-4b6d-8652-9d56da39372a"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3549, 112, 600, 17, 28, "Input",ExpressionUUID->"a88bf052-6bce-4f32-a76a-7a959eb02b48"],
+Cell[4152, 131, 474, 11, 21, "Message",ExpressionUUID->"59056221-fad3-4b7d-bc07-2ddee681822a"],
+Cell[4629, 144, 304, 7, 32, "Output",ExpressionUUID->"755052d4-7442-423e-93c0-47858ac75cce"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4970, 156, 1049, 31, 48, "Input",ExpressionUUID->"d5d73463-bb56-4123-8e40-d152730aadd0"],
+Cell[6022, 189, 452, 11, 21, "Message",ExpressionUUID->"88140e53-d490-4a8d-94ad-9bda570880c0"],
+Cell[6477, 202, 316, 8, 53, "Output",ExpressionUUID->"8916af99-76dd-48e2-a886-bbbef00e7ef3"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6830, 215, 539, 15, 28, "Input",ExpressionUUID->"2d88a570-2e78-4f58-9f26-96da90ee075d"],
+Cell[7372, 232, 454, 11, 21, "Message",ExpressionUUID->"6acddd57-72b2-4315-8d7b-8ae76b85688a"],
+Cell[7829, 245, 342, 9, 53, "Output",ExpressionUUID->"59176295-a15f-47ac-83c8-526a08e9a4d3"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8208, 259, 810, 21, 28, "Input",ExpressionUUID->"02569e2f-d8e3-430f-be50-504a86d17bad"],
+Cell[9021, 282, 505, 12, 21, "Message",ExpressionUUID->"9de89e8c-7077-4788-b1da-5cd1f7b5d726"],
+Cell[9529, 296, 460, 13, 55, "Output",ExpressionUUID->"1cf4039a-2ada-4e86-a658-9026cd002f32"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[10026, 314, 538, 15, 28, "Input",ExpressionUUID->"0a021dbe-895d-48bb-8f76-1bdd6c07dd02"],
+Cell[10567, 331, 455, 11, 21, "Message",ExpressionUUID->"63372eac-2c1d-4d21-9dca-fc6f4e983532"],
+Cell[11025, 344, 342, 9, 53, "Output",ExpressionUUID->"145c0255-af25-41f1-8c0d-26625444c29f"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[11404, 358, 607, 17, 28, "Input",ExpressionUUID->"b0698814-ef01-4d06-b9ee-6813e1579ccf"],
+Cell[12014, 377, 452, 11, 21, "Message",ExpressionUUID->"ff119384-240c-4270-ae56-13297a966e8b"],
+Cell[12469, 390, 370, 10, 53, "Output",ExpressionUUID->"4a89aa2d-20ca-4066-a397-46bfdd15deea"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[12876, 405, 538, 15, 28, "Input",ExpressionUUID->"ff9a04b7-8444-4009-922b-47ca4861691d"],
+Cell[13417, 422, 455, 11, 21, "Message",ExpressionUUID->"56638172-6314-48df-aee9-c42e8bc9aa85"],
+Cell[13875, 435, 203, 4, 32, "Output",ExpressionUUID->"699f31d5-cf88-488d-8ce5-04ad45281ff0"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[14115, 444, 605, 17, 28, "Input",ExpressionUUID->"8671f8c5-9a5e-41cb-99f5-96663021419b"],
+Cell[14723, 463, 479, 11, 21, "Message",ExpressionUUID->"393f38a4-1f00-4941-a200-15a939cd59e4"],
+Cell[15205, 476, 303, 7, 32, "Output",ExpressionUUID->"6e980cbe-2e0a-4dc9-99d1-23927dbe29e3"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[15545, 488, 662, 17, 28, "Input",ExpressionUUID->"119aff4a-3679-42db-bf47-f49982f1101e"],
+Cell[16210, 507, 450, 11, 21, "Message",ExpressionUUID->"34abacb4-b3ee-4469-861b-8c1675a9c3ac"],
+Cell[16663, 520, 391, 9, 53, "Output",ExpressionUUID->"995a865d-6652-4301-9dd2-eb0d84d66a4c"]
+}, Open  ]]
+}
+]
+*)
+
